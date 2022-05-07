@@ -185,9 +185,11 @@
     width: 100%;
     object-fit: contain;
     z-index: 1;
+    transition: all 0.3s ease;
     &:hover {
-      transform: scale(1.2);
-      transition: all 0.5s ease-out;
+      transform: scale(1.1);
+      transition: all 0.3s ease;
+      cursor: pointer;
     }
   }
 
