@@ -18,9 +18,12 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">
-        {" "}
-        I Know that <span>Good Apps</span>
-        <br></br>means <span>Good Business</span>
+        <span>&#8220;</span> First, <span>solve</span> the problem.
+        <br />
+        {/* I Know that <span>Good Apps</span> */}
+        Then, <span>Write</span> the code. <span>&#8221;</span>
+        {/* <br></br>means <span>Good Business</span> */}
+        <p>– John Johnson</p>
       </h2>
 
       <div className="app__profiles">

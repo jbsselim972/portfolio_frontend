@@ -18,8 +18,8 @@
   justify-content: flex-start;
   align-items: center;
   img {
-    width: 200px;
-    height: 45px;
+    width: 180px;
+    height: 40px;
 
     @media screen and (min-width: 2000px) {
       width: 180px;
@@ -84,6 +84,7 @@
   justify-content: center;
   align-items: center;
   background-color: var(--secondary-color);
+  cursor: pointer;
 
   svg {
     width: 70%;
