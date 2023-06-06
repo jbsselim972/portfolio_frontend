@@ -1,0 +1,33 @@
+.app__profiles {
+  @apply flex justify-center items-center  mt-[2rem];
+}
+
+.app__profile-item {
+  @apply flex flex-row;
+  .app__profile-content {
+    @apply w-[70%] pl-[5rem] min-[2000px]:w-[370px] min-[2000px]:my-[2rem] min-[2000px]:mx-[4rem];
+
+    h1 {
+      @apply font-bold text-[30px];
+    }
+
+    div {
+      @apply text-[15px] mt-[15px] first-letter:text-[24px] first-letter:pb-0 text-justify first-letter:text-secondary;
+      .text-plus {
+        @apply font-bold text-secondary;
+        a {
+          @apply no-underline outline-none text-black;
+          &:hover {
+            @apply text-secondary transition-all duration-200 ease-in-out;
+          }
+        }
+      }
+    }
+  }
+  .app__profile-img {
+    @apply h-full border-[2px] border-secondary rounded-full shadow-[0_0_25px] shadow-secondary;
+    img {
+      @apply w-[170px] h-[170px] rounded-full bg-gray-200 object-cover min-[2000px]:h-[320px];
+    }
+  }
+}
