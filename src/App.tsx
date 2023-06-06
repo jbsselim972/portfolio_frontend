@@ -1,6 +1,7 @@
 import { Header, Footer, Skills, Quote, About, Work } from "./container";
 import Navbar from "./components/Navbar/Navbar";
 import "@/styles/App.css";
+import { Analytics } from "@vercel/analytics/react";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <div className="copyright">
         <p className="p-text">@2023 JBSSELIM</p>
       </div>
+      <Analytics />
     </div>
   );
 };
