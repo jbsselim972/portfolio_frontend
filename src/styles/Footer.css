@@ -8,7 +8,7 @@
 }
 
 .app__footer-cards .app__footer-card {
-  @apply min-w-[290px] p-[1rem] flex flex-row justify-start items-center my-[1rem] mx-0 rounded-[10px] cursor-pointer bg-[#fef4f5] transition-all duration-300 ease-in-out max-[450px]:w-full;
+  @apply min-w-[290px] p-[1rem] flex flex-row justify-evenly sm:justify-start items-center my-[1rem] mx-0 rounded-[10px] cursor-pointer bg-[#fef4f5] transition-all duration-300 ease-in-out max-[450px]:w-full;
 }
 
 .app__footer-cards .app__footer-card img {
