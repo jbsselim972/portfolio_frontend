@@ -1,0 +1,78 @@
+.app {
+  @apply bg-primary font-base;
+}
+
+.app__whitebg {
+  @apply bg-white_color;
+}
+
+.app__primarybg {
+  @apply bg-primary;
+}
+
+.app__container {
+  @apply w-full min-h-[100vh] flex flex-row;
+}
+
+.app__flex {
+  @apply flex justify-center items-center;
+}
+
+.app__wrapper {
+  @apply flex-1 w-full flex-col py-16 px-8 max-[450px]:pt-[4rem] max-[450px]:px-[1rem] max-[450px]:pb-[2rem];
+}
+
+.copyright {
+  @apply w-full pt-4 flex flex-col justify-end items-end md:p-[2rem];
+}
+
+.copyright p {
+  @apply uppercase text-black_color;
+}
+
+.head-text {
+  @apply text-[1.5rem] sm:text-[2.75rem] font-[800] text-center text-black_color capitalize min-[2000px]:text-[4rem] max-[450px]:text-[2rem];
+}
+
+.head-text span {
+  @apply text-secondary;
+}
+
+.p-text {
+  @apply text-[0.8rem] text-left text-gray_color;
+}
+
+.bold-text {
+  @apply text-base font-[800] text-black_color text-left  max-[450px]:text-[0.9rem] min-[2000px]:text-[2rem];
+}
+
+.app__social {
+  @apply flex justify-end items-center flex-col p-4 cursor-pointer max-[500px]:hidden;
+}
+
+.app__social div {
+  @apply my-[0.25rem] w-10 h-10 rounded-full bg-white_color border-[1px] border-solid border-lightgray_color flex justify-center items-center transition-all ease-in-out duration-300;
+}
+
+.app__social div:hover {
+  @apply bg-secondary border-secondary;
+}
+.app__social div svg {
+  @apply w-[15px] h-[15px] text-gray_color;
+}
+.app__social div svg:hover {
+  @apply 2xl:w-[30px] 2xl:h-[30px] rounded-full transition-all duration-300 ease-in-out;
+}
+.app__social div:hover svg {
+  @apply text-white_color;
+}
+.app__navigation {
+  @apply sm:flex justify-center items-center flex-col p-[1rem] hidden;
+}
+.app__navigation .app__navigation-dot {
+  @apply w-[10px] h-[10px] rounded-full bg-[#cbcbcb] m-[0.5rem] transition ease-in-out delay-200 max-[1200px]:w-[15px] max-[1200px]:h-[15px];
+}
+
+.app__navigation .app__navigation-dot:hover {
+  @apply bg-secondary;
+}

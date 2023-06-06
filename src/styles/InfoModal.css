@@ -1,0 +1,6 @@
+.info-tags {
+  @apply flex flex-row mt-2;
+  .tag {
+    @apply py-[0.1rem] px-[1rem] rounded-full bg-secondary text-white mx-1;
+  }
+}
