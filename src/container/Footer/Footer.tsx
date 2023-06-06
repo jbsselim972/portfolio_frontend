@@ -5,6 +5,7 @@ import { images } from "@/constants";
 
 import "@/styles/Footer.css";
 import { AiFillCheckCircle } from "react-icons/ai";
+import { sendEmail } from "@/utils/email";
 
 const Footer = () => {
   const [formData, setFormData] = useState({
@@ -29,12 +30,8 @@ const Footer = () => {
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setLoading(true);
-    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
-    const userId = import.meta.env.VITE_USER_ID;
-    const templateId = import.meta.env.VITE_TEMPLATE_ID;
-    // console.log(publicKey, userId, templateId);
-    const formRef = form.current ? form.current : "";
-    await emailjs.sendForm(userId, templateId, formRef, publicKey);
+
+    await sendEmail(form);
     setLoading(false);
     setFormSubmitted(true);
     // const contact = {
