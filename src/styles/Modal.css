@@ -1,0 +1,16 @@
+.app__overlay {
+  @apply fixed top-0 left-0 right-0 w-screen h-screen bg-black/70 z-[1000];
+}
+
+.app__modal {
+  @apply fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] bg-white p-[20px] z-[1000] font-base rounded-[10px] border-[1px] border-secondary shadow-[0_0_24px] shadow-secondary;
+  .app__modal-actions {
+    @apply w-full flex justify-end mt-8 pt-4 border-t-2;
+  }
+  .app__modal-close {
+    @apply px-[1rem] py-[0.5rem] rounded-[20px] border-none bg-black font-[900] text-white_color outline-none font-base cursor-pointer;
+    &:hover {
+      @apply bg-secondary transition-all duration-300 ease-in-out;
+    }
+  }
+}

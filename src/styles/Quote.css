@@ -1,0 +1,15 @@
+.app__quote .head-text {
+  @apply text-3xl flex flex-col  justify-center items-center pt-[30px];
+  .quoted {
+    @apply flex justify-end my-[1rem] mx-0 text-[15px] text-gray_color;
+  }
+}
+
+#quote {
+  @apply min-h-0;
+
+  .app__navigation,
+  .app__social {
+    @apply hidden;
+  }
+}

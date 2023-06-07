@@ -1,0 +1,87 @@
+.app__skills {
+  @apply flex-1 w-full flex-col;
+}
+
+.app__skills-container {
+  @apply w-[80%] mt-[3rem] flex flex-row max-[900px]:w-full max-[900px]:flex-col;
+}
+
+.app__skills-list {
+  @apply flex-1 flex flex-wrap justify-center items-center mr-0 md:mr-[5rem] md:justify-start md:items-start;
+}
+
+.app__skills-item div {
+  @apply w-[90px] h-[90px] rounded-full  max-[450px]:w-[70px] max-[450px]:h-[70px] min-[2000px]:w-[150px] min-[2000px]:h-[150px] cursor-pointer;
+}
+.app__skills-item div img {
+  @apply w-[83%] h-[83%] bg-white object-contain rounded-full;
+}
+.app__skills-item div:hover {
+  @apply shadow-[0_0_25px] shadow-secondary;
+}
+.app__skills-item p {
+  @apply font-[500] mt-[0.5rem] 2xl:mt-[1rem];
+}
+
+.app__skills-item {
+  @apply flex-col text-center m-[1rem] transition-all duration-300 ease-in-out 2xl:my-[1rem] 2xl:mx-[2rem]  z-[1];
+}
+
+.app__skills-exp {
+  @apply flex-1 flex justify-start items-start flex-col max-[900px]:mt-[2rem];
+}
+
+.app__skills-exp-item {
+  @apply w-full flex flex-row justify-start items-start my-[1rem] mx-0;
+}
+
+.app__skills-exp-works {
+  @apply flex-1;
+
+  .app__skills-exp-work {
+    @apply flex flex-col justify-start items-start mb-[1rem];
+
+    h4 {
+      @apply font-[500];
+    }
+
+    p {
+      @apply font-[400] text-gray_color mt-[5px];
+    }
+  }
+}
+
+.app__skills-exp-year {
+  @apply sm:mr-[3rem] mr-[1rem];
+
+  p {
+    @apply font-[900] text-secondary;
+  }
+}
+
+.skills-tooltip {
+  @apply max-w-[300px] z-[500] bg-white_color shadow-[0_0_25px_rgba(0,0,0,0.1)] p-[1rem] text-gray_color text-center leading-6 opacity-100 min-[2000px]:text-[1.75rem] min-[2000px]:max-w-[500px] min-[2000px]:leading-8 !important;
+}
+
+.progress-bar-90 {
+  @apply bg-skill_90;
+}
+
+.progress-bar-60 {
+  @apply bg-skill_60;
+}
+
+.progress-bar-70 {
+  @apply bg-skill_70;
+}
+
+.progress-bar-40 {
+  @apply bg-skill_40;
+}
+
+.progress-bar-80 {
+  @apply bg-skill_80;
+}
+/* .test {
+  background: radial-gradient(closest-side, white 79%, transparent 80% 100%),conic-gradient(#ff8c42 75%, #ffcdae 0);
+} */

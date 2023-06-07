@@ -1,0 +1,69 @@
+.app__footer {
+  @apply flex-1 w-full flex-col max-sm:px-[1rem];
+}
+
+/*Footer cards*/
+.app__footer-cards {
+  @apply w-[60%] flex justify-evenly items-center flex-wrap  mx-[2rem] mb-[2rem]  max-[768px]:w-full;
+}
+
+.app__footer-cards .app__footer-card {
+  @apply min-w-[290px] p-[1rem] flex flex-row justify-evenly sm:justify-start items-center my-[1rem] mx-0 rounded-[10px] cursor-pointer bg-[#fef4f5] transition-all duration-300 ease-in-out max-[450px]:w-full;
+}
+
+.app__footer-cards .app__footer-card img {
+  @apply w-[40px] h-[40px] my-0 mx-[0.7rem] object-contain;
+}
+
+.app__footer-cards .app__footer-card p {
+  @apply font-[600];
+}
+
+.app__footer-cards .app__footer-card a {
+  @apply no-underline font-[500]  text-white_color;
+}
+
+.app__footer-cards .app__footer-card:hover {
+  @apply shadow-[0_0_25px] shadow-secondary;
+}
+
+.app__footer-cards .app__footer-card:last-child {
+  @apply bg-[#ff6500bd];
+}
+
+/**Footer form*/
+.app__footer-form {
+  @apply w-[60%] flex-col my-[1rem] mx-[2rem] max-[768px]:w-full max-[768px]:my-[1rem] max-[768px]:mx-0;
+}
+
+.app__footer-form div {
+  @apply w-full my-[0.75rem] mx-0 rounded-[10px] cursor-pointer bg-primary transition-all duration-300 ease-in-out;
+}
+
+.app__footer-form div:hover {
+  @apply shadow-[0_0_25px] shadow-secondary;
+}
+
+.app__footer-form div input,
+textarea {
+  @apply w-full p-[0.95rem] border-none rounded-[7px] bg-primary font-base  outline-none !important;
+}
+
+.app__footer-form div textarea {
+  @apply h-[170px];
+}
+
+.app__footer-form button {
+  @apply py-[1rem] px-[2rem] rounded-[10px] border-none bg-[#ff6500bd] font-[900] text-white_color outline-none font-base cursor-pointer;
+}
+
+.app__footer-form-success {
+  @apply mt-10 flex flex-row justify-center items-center;
+  h3 {
+    @apply font-bold ml-2;
+  }
+
+  svg {
+    @apply w-8 h-8 text-green-500;
+  }
+}

@@ -1,0 +1,79 @@
+#home {
+  @apply bg-bgImg bg-cover bg-repeat bg-center;
+}
+
+#home .app__wrapper {
+  @apply p-0;
+}
+#home .app__wrapper .copyright {
+  @apply hidden;
+}
+
+.app__header {
+  @apply flex-1 w-full h-full flex-row max-[1200px]:flex-col pt-[6rem] px-[2rem] pb-0;
+  padding: 6rem 2rem 0;
+}
+
+.app__header-info {
+  @apply flex flex-[0.65] flex-col justify-start items-start h-full max-[2000px]:w-full max-[2000px]:mr-0;
+}
+
+.app__header-badge {
+  @apply w-full flex justify-end items-end flex-col max-[1200px]:justify-start max-[1200px]:items-start;
+}
+
+.app__header-badge .badge-cmp,
+.tag-cmp {
+  @apply px-[2rem] py-[1rem] border-white_color rounded-[15px] flex-row w-auto shadow-[0_0_20px_rgba(0,0,0,0.1)];
+}
+.app__header-badge .tag-cmp {
+  @apply flex-col mt-[3rem];
+}
+
+.app__header-badge .tag-cmp p {
+  @apply w-full uppercase text-right;
+}
+.app__header-badge .badge-cmp .head-text {
+  @apply xl:whitespace-nowrap;
+}
+.app__header-badge .badge-cmp .head-text p {
+  @apply text-[15px] xl:text-[15px];
+}
+.app__header-badge span {
+  @apply text-[2.5rem] min-[2000px]:text-[5rem] max-[1200px]:justify-start max-[1200px]:items-start;
+}
+
+.app__header-circles {
+  @apply flex flex-[0.75] flex-col justify-evenly items-start h-full ml-[1rem] max-[1200px]:w-full max-[1200px]:flex-wrap max-[1200px]:flex-row max-[1200px]:ml-0;
+}
+
+.app__header-circles div {
+  @apply w-full h-full rounded-[50%] bg-white_color shadow-[0_0_20px_rgba(0,0,0,0.1)] max-[1200px]:m-[0.5rem];
+}
+.app__header-circles div img {
+  @apply w-[80%] h-[80%] rounded-full object-contain;
+}
+.app__header-circles div:nth-child(1) {
+  @apply w-[100px] h-[100px];
+}
+.app__header-circles div:nth-child(2) {
+  @apply m-[1.75rem] w-[150px] h-[150px];
+}
+.app__header-circles div:nth-child(3) {
+  @apply w-[70px] h-[70px];
+}
+
+.app__header-img {
+  @apply flex flex-1 h-full justify-center items-center relative;
+}
+
+.app__header-img img {
+  @apply sm:w-full object-contain z-[1]  md:w-full;
+}
+/* .app__header-img img:hover {
+  @apply scale-[1.1] transition-all duration-200 ease-in-out;
+} */
+
+.app__header-img .overlay_circle {
+  @apply absolute left-0 right-0 bottom-0 z-0 w-full h-[90%];
+}
