@@ -1,1 +1,1 @@
-# Portfolio created With React and Sanity
+# Portfolio created With ReactJS
