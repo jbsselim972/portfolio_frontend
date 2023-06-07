@@ -40,7 +40,7 @@
   @apply w-[70%] h-[70%] text-white_color;
 }
 .app__navbar-menu div {
-  @apply fixed top-0 bottom-0 right-0 z-[5] p-[1rem] w-[80%] h-[100vh] flex justify-end items-end flex-col bg-bgwhite bg-white_color bg-cover bg-repeat shadow-[0_0_20px_rgba(168,168,168,0.15)] md:hidden;
+  @apply fixed top-0 bottom-0 right-0 z-[5] p-[1rem] w-[80%] h-[100vh] flex justify-end items-end flex-col bg-bgwhite bg-white_color bg-cover bg-repeat shadow-[0_0_20px_rgba(168,168,168,0.15)];
 }
 .app__navbar-menu div svg {
   @apply w-[35px] h-[35px] text-secondary mx-[1rem] my-[0.5rem];
