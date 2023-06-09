@@ -13,7 +13,7 @@
   }
 
   .app__profile-content {
-    @apply flex flex-col mt-10 w-[70%] sm:pl-[5rem] min-[2000px]:w-[370px] min-[2000px]:my-[2rem] min-[2000px]:mx-[4rem] justify-center items-center sm:items-start;
+    @apply flex flex-col mt-10 w-full md:w-[70%] sm:pl-[5rem] min-[2000px]:w-[370px] min-[2000px]:my-[2rem] min-[2000px]:mx-[4rem] justify-center items-center sm:items-start;
 
     h1 {
       @apply font-bold text-[30px];
@@ -24,7 +24,7 @@
       .text-plus {
         @apply font-bold text-secondary;
         a {
-          @apply no-underline outline-none text-black;
+          @apply outline-none underline text-black;
           &:hover {
             @apply text-secondary transition-all duration-200 ease-in-out;
           }
