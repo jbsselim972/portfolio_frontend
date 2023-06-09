@@ -3,7 +3,7 @@
 }
 
 .app__work-filter {
-  @apply flex flex-row justify-start items-center flex-wrap mt-[4rem] mx-0 mb-[2rem];
+  @apply flex flex-row justify-center md:justify-start items-center flex-wrap mt-[4rem] mx-0 mb-[2rem];
 
   .app__work-filter-item {
     @apply py-[0.5rem] px-[1rem] rounded-[0.5rem] bg-white text-black_color font-[800] cursor-pointer  transition-all duration-300 ease-in-out m-[0.5rem] min-[2000px]:py-[1rem] min-[2000px]:px-[2rem] min-[2000px]:rounded-[0.85rem];
