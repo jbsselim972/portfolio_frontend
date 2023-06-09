@@ -1,5 +1,5 @@
 .app__quote .head-text {
-  @apply text-3xl flex flex-col  justify-center items-center pt-[30px];
+  @apply text-[20px] md:text-3xl flex flex-col  justify-center items-center pt-[30px];
   .quoted {
     @apply flex justify-end my-[1rem] mx-0 text-[15px] text-gray_color;
   }
