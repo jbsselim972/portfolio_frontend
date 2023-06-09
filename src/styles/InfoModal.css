@@ -1,6 +1,7 @@
 .info-tags {
-  @apply flex flex-row mt-2;
+  @apply flex flex-row flex-wrap mt-2;
+
   .tag {
-    @apply py-[0.1rem] px-[1rem] rounded-full bg-secondary text-white mx-1;
+    @apply py-[0.1rem] px-[1rem] rounded-full bg-secondary text-white mx-1 my-1;
   }
 }
