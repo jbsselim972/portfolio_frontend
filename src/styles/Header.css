@@ -37,7 +37,7 @@
   @apply xl:whitespace-nowrap;
 }
 .app__header-badge .badge-cmp .head-text p {
-  @apply text-[15px] xl:text-[15px];
+  @apply text-[13px] md:text-[15px];
 }
 .app__header-badge span {
   @apply text-[2.5rem] min-[2000px]:text-[5rem] max-[1200px]:justify-start max-[1200px]:items-start;
