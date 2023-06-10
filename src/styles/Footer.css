@@ -4,11 +4,11 @@
 
 /*Footer cards*/
 .app__footer-cards {
-  @apply w-[60%] flex justify-evenly items-center flex-wrap  mx-[2rem] mb-[2rem]  max-[768px]:w-full;
+  @apply w-[60%] flex justify-evenly items-center flex-wrap  mx-[2rem] mt-[2rem]  max-[768px]:w-full;
 }
 
 .app__footer-cards .app__footer-card {
-  @apply min-w-[290px] p-[1rem] flex flex-row justify-evenly sm:justify-start items-center my-[1rem] mx-0 rounded-[10px] cursor-pointer bg-[#fef4f5] transition-all duration-300 ease-in-out max-[450px]:w-full;
+  @apply min-w-[290px] p-[1rem] flex flex-row justify-evenly sm:justify-start items-center rounded-[10px] cursor-pointer bg-[#fef4f5] transition-all duration-300 ease-in-out max-[450px]:w-full;
 }
 
 .app__footer-cards .app__footer-card img {
@@ -20,7 +20,7 @@
 }
 
 .app__footer-cards .app__footer-card a {
-  @apply no-underline font-[500]  text-white_color;
+  @apply no-underline   text-white_color;
 }
 
 .app__footer-cards .app__footer-card:hover {
@@ -54,7 +54,7 @@ textarea {
 }
 
 .app__footer-form button {
-  @apply py-[1rem] px-[2rem] rounded-[10px] border-none bg-[#ff6500bd] font-[900] text-white_color outline-none font-base cursor-pointer;
+  @apply mt-[0.75rem] py-[1rem] px-[2rem] rounded-[10px] border-none bg-[#ff6500bd] text-white_color outline-none font-base cursor-pointer;
 }
 
 .app__footer-form-success {
