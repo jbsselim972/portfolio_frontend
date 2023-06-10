@@ -31,7 +31,7 @@
 }
 
 .head-text {
-  @apply text-[1.5rem] sm:text-[2.75rem] font-[800] text-center text-black_color capitalize min-[2000px]:text-[4rem] max-[450px]:text-[2rem];
+  @apply text-[1.5rem] sm:text-[2rem] font-[800] text-center text-black_color capitalize min-[2000px]:text-[4rem];
 }
 
 .head-text span {
