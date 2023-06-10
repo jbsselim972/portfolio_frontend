@@ -93,7 +93,7 @@ const Footer = () => {
             />
           </div>
           <button type="submit">
-            {loading ? "Sending..." : "Send Message"}
+            {loading ? "Sending..." : "Send message"}
           </button>
         </form>
       ) : (
