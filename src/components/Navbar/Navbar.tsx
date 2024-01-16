@@ -51,6 +51,20 @@ const Navbar = () => {
                         transition={{ duration: 0.85, ease: 'easeInOut' }}
                     >
                         <HiX onClick={() => setToggle(false)} />
+                        <Select defaultValue="fr" onValueChange={setCurrentLang}>
+                            <SelectTrigger className="w-[200px]">
+                                <SelectValue placeholder="Language" />
+                            </SelectTrigger>
+                            <SelectContent className="flex">
+                                {LANGUAGES.map((lang) => (
+                                    <SelectItem value={lang.code} key={lang.code}>
+                                        <span className="flex gap-x-2 items-center justify-center">
+                                            {lang.label} {<lang.icon className="w-4 h-4" />}
+                                        </span>
+                                    </SelectItem>
+                                ))}
+                            </SelectContent>
+                        </Select>
                         <ul>
                             {['home', 'about', 'skills', 'work', 'contact'].map((item) => (
                                 <li key={item}>
@@ -63,7 +77,7 @@ const Navbar = () => {
                     </motion.div>
                 )}
             </div>
-            <div className="app__navbar-select-lang">
+            <div className="app__navbar-select-lang hidden md:flex">
                 <Select defaultValue="fr" onValueChange={setCurrentLang}>
                     <SelectTrigger className="w-[150px]">
                         <SelectValue placeholder="Language" />
