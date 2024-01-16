@@ -1,17 +1,28 @@
-import "@/styles/Quote.css";
+import '@/styles/Quote.css'
+
+import { Trans, useTranslation } from 'react-i18next'
 
 const Quote = () => {
-  return (
-    <h2 className="head-text">
-      <p>
-        <span>&#8220;</span> First, <span>solve</span> the problem.
-      </p>
-      <p>
-        Then, <span>Write</span> the code. <span>&#8221;</span>
-        <p className="quoted">– John Johnson</p>
-      </p>
-    </h2>
-  );
-};
+    const { t } = useTranslation()
+    return (
+        <div className="flex flex-col">
+            <div className="capitalize  md:text-3xl font-[800]">
+                <span className="text-secondary">&#8220;</span>
+                <Trans i18nKey="quote" components={{ p: <p />, span: <span />, br: <br /> }}>
+                    <p>
+                        First, <span>solve</span> the problem.
+                    </p>
+                    <p>
+                        Then, <span>write</span> the code.
+                    </p>
+                </Trans>
+                <span className="flex text-secondary justify-end">&#8221;</span>
+            </div>
+            <span className="flex justify-end text-gray_color my-[1rem] mx-0 text-[15px]">
+                - John Johnson
+            </span>
+        </div>
+    )
+}
 
-export default Quote;
+export default Quote
