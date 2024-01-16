@@ -1,9 +1,8 @@
 import '@/styles/Quote.css'
 
-import { Trans, useTranslation } from 'react-i18next'
+import { Trans, withTranslation } from 'react-i18next'
 
 const Quote = () => {
-    const { t } = useTranslation()
     return (
         <div className="flex flex-col">
             <div className="capitalize  md:text-3xl font-[800]">
@@ -25,4 +24,4 @@ const Quote = () => {
     )
 }
 
-export default Quote
+export default withTranslation()(Quote)

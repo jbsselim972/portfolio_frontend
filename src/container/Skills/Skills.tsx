@@ -56,7 +56,7 @@ const Skills = () => {
                             </div>
                             <motion.div className="app__skills-exp-works" key={index}>
                                 {experience.works.map((work) => {
-                                    const dateRange = formatRangeDate(work.dateFrom, work.dateTo)
+                                    // const dateRange = formatRangeDate(work.dateFrom, work.dateTo)
                                     return (
                                         <>
                                             <motion.div
