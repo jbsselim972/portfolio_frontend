@@ -1,8 +1,8 @@
 import { FR, US } from 'country-flag-icons/react/3x2'
 
 export const LANGUAGES = [
-    { label: 'Français', code: 'fr', icon: FR },
-    { label: 'English', code: 'en', icon: US },
+    { label: 'Français', code: 'fr-FR', icon: FR },
+    { label: 'English', code: 'en-US', icon: US },
 ]
 
 export const resources = {

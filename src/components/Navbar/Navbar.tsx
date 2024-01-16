@@ -17,9 +17,10 @@ import { LANGUAGES } from '@/constants/languages'
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false)
-    const [currentLang, setCurrentLang] = useState(LANGUAGES[0].code)
     const { i18n, t } = useTranslation()
+    const [currentLang, setCurrentLang] = useState(i18n.language)
 
+    console.log(i18n.language)
     useEffect(() => {
         try {
             i18n.changeLanguage(currentLang)
@@ -79,7 +80,7 @@ const Navbar = () => {
             <div className="app__navbar-select-lang hidden md:flex">
                 <Select defaultValue={currentLang} onValueChange={setCurrentLang}>
                     <SelectTrigger className="w-[150px]">
-                        <SelectValue placeholder="Language" />
+                        <SelectValue placeholder={t('label')} />
                     </SelectTrigger>
                     <SelectContent className="flex">
                         {LANGUAGES.map((lang) => (
