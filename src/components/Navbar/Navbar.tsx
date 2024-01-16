@@ -50,7 +50,7 @@ const Navbar = () => {
                         transition={{ duration: 0.85, ease: 'easeInOut' }}
                     >
                         <HiX onClick={() => setToggle(false)} />
-                        <Select defaultValue="fr" onValueChange={setCurrentLang}>
+                        <Select defaultValue={currentLang} onValueChange={setCurrentLang}>
                             <SelectTrigger className="w-[200px]">
                                 <SelectValue placeholder="Language" />
                             </SelectTrigger>
@@ -77,7 +77,7 @@ const Navbar = () => {
                 )}
             </div>
             <div className="app__navbar-select-lang hidden md:flex">
-                <Select defaultValue="fr" onValueChange={setCurrentLang}>
+                <Select defaultValue={currentLang} onValueChange={setCurrentLang}>
                     <SelectTrigger className="w-[150px]">
                         <SelectValue placeholder="Language" />
                     </SelectTrigger>
