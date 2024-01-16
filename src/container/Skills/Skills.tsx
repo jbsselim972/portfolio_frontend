@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 
 import { images, skills, workExperiences as experiences } from '@/constants'
-import { formatRangeDate } from '@/utils/format'
+// import { formatRangeDate } from '@/utils/format'
 
 const Skills = () => {
     const { t } = useTranslation()

@@ -13,6 +13,7 @@
         "react-refresh/only-export-components": "warn",
         // increase the severity of rules so they are auto-fixable
         "simple-import-sort/imports": "error",
-        "simple-import-sort/exports": "error"
+        "simple-import-sort/exports": "error",
+        "no-unused-vars": "off"
     }
 }
