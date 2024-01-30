@@ -1,6 +1,34 @@
 export { default as images } from './images'
 export const projects: IProject[] = [
     {
+        id: 'trello',
+        title: 'Trello Clone',
+        description: 'This Trello clone website was made using Nextjs',
+        projectLink: 'https://trello-demo-jbsselim.vercel.app',
+        codeLink: 'https://github.com/jbsselim972/trello-demo',
+        imgUrl: 'trello',
+        tags: ['nextjs', 'fullstack', 'ecommerce'],
+    },
+    {
+        id: 'ecommercefullstack',
+        title: 'E-Commerce FullStack Website',
+        description:
+            'This E-commerce website was made using Nextjs as Frontend and Sanity as Backend',
+        projectLink: 'https://nextjs-ecommerce-store.vercel.app',
+        codeLink: 'https://github.com/jbsselim972/nextjs-ecommerce-store',
+        imgUrl: 'ecommercefullstack',
+        tags: ['nextjs', 'reactjs', 'fullstack', 'ecommerce'],
+    },
+    {
+        id: 'flexibble',
+        title: 'Flexibble',
+        description: 'This Dribble clone website was made using Nextjs',
+        projectLink: 'https://flexibble-jbsselim.vercel.app',
+        codeLink: 'https://github.com/jbsselim972/flexibble',
+        imgUrl: 'flexibble',
+        tags: ['nextjs', 'reactjs', 'fullstack', 'ecommerce'],
+    },
+    {
         id: 'spotify',
         title: 'Spotify',
         description: "This is a clone of spotify's web application",
@@ -10,28 +38,9 @@ export const projects: IProject[] = [
         tags: ['nextjs', 'reactjs', 'spotify', 'frontend'],
     },
     {
-        id: 'ecommerce',
-        title: 'E-Commerce Website',
-        description:
-            'This E-commerce website is made using Nextjs as Frontend and Sanity as Backend',
-        projectLink: 'https://ecommerce-demo-jbsselim.vercel.app',
-        codeLink: 'https://github.com/jbsselim972/ecommerce-demo',
-        imgUrl: 'ecommerce',
-        tags: ['nextjs', 'reactjs', 'sanity', 'fullstack', 'ecommerce'],
-    },
-    {
-        id: 'instagram',
-        title: 'Instagram',
-        description: "This is a clone of instagram's web application",
-        projectLink: 'https://instaclone-jbsselim972.vercel.app',
-        codeLink: 'https://github.com/jbsselim972/instaclone',
-        imgUrl: 'instagram',
-        tags: ['nextjs', 'reactjs', 'firebase', 'fullstack'],
-    },
-    {
         id: 'gpt3',
         title: 'GPT-3',
-        description: 'This is a UI/UX website made with Reactjs',
+        description: 'This is a UI/UX website was made with React',
         projectLink: 'https://gpt3-jbsse.vercel.app',
         codeLink: 'https://github.com/jbsselim972/gpt3_jbsse',
         imgUrl: 'gpt3',
@@ -41,7 +50,7 @@ export const projects: IProject[] = [
         id: 'krypt',
         title: 'Krypt',
         description:
-            'This is an example of an exchange for cryptocurrencies working with Metamask and Ethereum blockchain',
+            'This is a demo of an exchange for cryptocurrencies working with Metamask and Ethereum blockchain',
         projectLink: 'https://krypt-jbsse.vercel.app',
         codeLink: 'https://github.com/jbsselim972/web3.0example',
         imgUrl: 'krypt',
@@ -51,7 +60,7 @@ export const projects: IProject[] = [
         id: 'medium',
         title: 'Medium',
         description:
-            "This is a clone of Medium's website with some blog functionnalities made with ReactJS and Backend by Sanity",
+            "This is a clone of Medium's website with some blog functionnalities made with React and Backend by Sanity",
         projectLink: 'https://jbsmedium.vercel.app',
         codeLink: 'https://github.com/jbsselim972/jbsmedium',
         imgUrl: 'medium',
@@ -66,34 +75,6 @@ export const projects: IProject[] = [
         codeLink: 'https://github.com/jbsselim972/nftplatform',
         imgUrl: 'nftplatform',
         tags: ['nextjs', 'reactjs', 'sanity', 'fullstack', 'web3'],
-    },
-    {
-        id: 'netflix',
-        title: 'Netflix',
-        description:
-            'This is a Netflix clone made with ReactJS with payment by Stripe and Backend by Firebase',
-        projectLink: 'https://netflix-clone-b773f.web.app',
-        codeLink: '',
-        imgUrl: 'netflix',
-        tags: ['reactjs', 'stripe', 'fullstack'],
-    },
-    {
-        id: 'amazon',
-        title: 'Amazon',
-        description: "This is an Amazon's website clone made with NextJS",
-        projectLink: 'https://amazon-jbsselim972.vercel.app',
-        codeLink: 'https://github.com/jbsselim972/amazon',
-        imgUrl: 'amazon',
-        tags: ['nextjs', 'reactjs', 'frontend', 'ecommerce'],
-    },
-    {
-        id: 'airbnb',
-        title: 'Airbnb',
-        description: "This is an Airbnb's website clone made with NextJS",
-        projectLink: 'https://airbnb-jbsselim.vercel.app',
-        codeLink: 'https://github.com/jbsselim972/airbnb',
-        imgUrl: 'airbnb',
-        tags: ['nextjs', 'reactjs', 'frontend'],
     },
 ]
 
