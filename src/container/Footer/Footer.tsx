@@ -33,10 +33,13 @@ const Footer = () => {
 
     const onSubmit: SubmitHandler<FormSchema> = async (data) => {
         try {
+            setLoading(true)
             await sendEmail(data)
             setFormSubmitted(true)
+            setLoading(false)
         } catch (error) {
             console.error(error)
+            setLoading(false)
         }
     }
 
