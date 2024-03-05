@@ -35,5 +35,8 @@
     "emailPlaceholder": "Your email",
     "textareaPlaceholder": "Your message",
     "sendText": "Send message",
-    "sendTextLoad": "Sending..."
+    "sendTextLoad": "Sending...",
+    "name": "Name must be at least 1 character long",
+    "email": "Email is required",
+    "invalidemail": "Invalid Email"
 }

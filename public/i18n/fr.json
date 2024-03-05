@@ -35,5 +35,8 @@
     "emailPlaceholder": "Email",
     "textareaPlaceholder": "Ton message",
     "sendText": "Envoyer",
-    "sendTextLoad": "Envoi en cours..."
+    "sendTextLoad": "Envoi en cours...",
+    "name": "Le nom doit contenir au moins 1 caractère",
+    "email": "L'Email est obligatoire",
+    "invalidemail": "Email non valide"
 }

@@ -10,16 +10,16 @@ import { z } from 'zod'
 import { images } from '@/constants'
 import { sendEmail } from '@/utils/email'
 
-const formSchema = z.object({
-    name: z.string().min(1).optional(),
-    email: z.string().email().min(1, 'Email is required.'),
-    message: z.string().optional(),
-})
-
-export type FormSchema = z.infer<typeof formSchema>
-
 const Footer = () => {
     const { t } = useTranslation()
+    const formSchema = z.object({
+        name: z.string().min(1, t('name')).optional(),
+        email: z.string().email(t('invalidemail')).min(1, t('email')),
+        message: z.string().optional(),
+    })
+
+    type FormSchema = z.infer<typeof formSchema>
+
     const {
         register,
         handleSubmit,
