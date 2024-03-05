@@ -7,13 +7,12 @@ export const projects: IProject[] = [
         projectLink: 'https://trello-demo-jbsselim.vercel.app',
         codeLink: 'https://github.com/jbsselim972/trello-demo',
         imgUrl: 'trello',
-        tags: ['nextjs', 'fullstack', 'ecommerce'],
+        tags: ['nextjs', 'fullstack'],
     },
     {
         id: 'ecommercefullstack',
         title: 'E-Commerce FullStack Website',
-        description:
-            'This E-commerce website was made using Nextjs as Frontend and Sanity as Backend',
+        description: 'This E-commerce website was made using Nextjs for frontend and backend too.',
         projectLink: 'https://nextjs-ecommerce-store.vercel.app',
         codeLink: 'https://github.com/jbsselim972/nextjs-ecommerce-store',
         imgUrl: 'ecommercefullstack',
@@ -26,7 +25,7 @@ export const projects: IProject[] = [
         projectLink: 'https://flexibble-jbsselim.vercel.app',
         codeLink: 'https://github.com/jbsselim972/flexibble',
         imgUrl: 'flexibble',
-        tags: ['nextjs', 'reactjs', 'fullstack', 'ecommerce'],
+        tags: ['nextjs', 'reactjs', 'fullstack'],
     },
     {
         id: 'spotify',
@@ -50,7 +49,7 @@ export const projects: IProject[] = [
         id: 'krypt',
         title: 'Krypt',
         description:
-            'This is a demo of an exchange for cryptocurrencies working with Metamask and Ethereum blockchain',
+            'This is a demo of an exchange for cryptocurrencies working with Metamask and connect to Ethereum blockchain with a Solidity contract',
         projectLink: 'https://krypt-jbsse.vercel.app',
         codeLink: 'https://github.com/jbsselim972/web3.0example',
         imgUrl: 'krypt',
