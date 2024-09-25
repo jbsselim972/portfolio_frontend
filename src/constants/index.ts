@@ -3,8 +3,9 @@ export const projects: IProject[] = [
     {
         id: 'trello',
         title: 'Trello Clone',
-        description: 'This Trello clone website was made using Nextjs',
-        projectLink: 'https://trello-demo-jbsselim.vercel.app',
+        description:
+            'This Trello clone website was made using Nextjs, Clerk and Supabase. It is a fullstack project and use organization management from clerk to create and manage organization and projects like Trello.',
+        projectLink: 'https://trello-demo-wheat.vercel.app',
         codeLink: 'https://github.com/jbsselim972/trello-demo',
         imgUrl: 'trello',
         tags: ['nextjs', 'fullstack'],
