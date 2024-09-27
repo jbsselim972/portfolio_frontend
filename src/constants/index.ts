@@ -32,7 +32,7 @@ export const projects: IProject[] = [
         id: 'spotify',
         title: 'Spotify',
         description: "This is a clone of spotify's web application",
-        projectLink: 'https://spotify-clone-jbsselim972.vercel.app',
+        projectLink: ' https://jbsselim-spotify.netlify.app',
         codeLink: 'https://github.com/jbsselim972/spotify-clone',
         imgUrl: 'spotify',
         tags: ['nextjs', 'reactjs', 'spotify', 'frontend'],
