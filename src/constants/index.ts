@@ -4,30 +4,41 @@ export const projects: IProject[] = [
         id: 'trello',
         title: 'Trello Clone',
         description:
-            'This Trello clone website was made using Nextjs, Clerk, PostgreSQL w/ Supabase and Stripe for payment subscription. It is a fullstack project and use organization management from clerk to create and manage organization and projects like Trello.',
+            'This Trello clone website was made using Nextjs, Clerk, PostgreSQL with Supabase and Stripe for payment subscription. It is a fullstack project and use organization management from clerk to create and manage organization and projects like Trello.',
         projectLink: 'https://jbsselim-trello.netlify.app',
         codeLink: 'https://github.com/jbsselim972/trello-demo',
         imgUrl: 'trello',
-        tags: ['nextjs', 'fullstack'],
+        tags: ['nextjs', 'fullstack', 'vercel'],
     },
     {
         id: 'discord',
         title: 'Discord Clone',
         description:
-            'This Discord clone website was made using Nextjs, Clerk, Supabase, Socket.io for the chat and Livekit Cloud for managing Video & Audio feed for conversations. It is a fullstack project, you can manage servers, users & roles like Discord. You can start text,video and audio channels and chat with other users',
+            'This Discord clone website was made using Nextjs, Clerk, Supabase, Socket.io for the chat and Livekit Cloud for managing Video and Audio feed for conversations. It is a fullstack project, you can manage servers, users and roles like Discord. You can start text,video and audio channels and chat with other users',
         projectLink: 'https://jbsselim-discord.vercel.app',
         codeLink: 'https://github.com/jbsselim972/discord-clone',
         imgUrl: 'discord',
-        tags: ['nextjs', 'fullstack', 'websockets'],
+        tags: ['nextjs', 'fullstack', 'websockets', 'vercel'],
     },
     {
         id: 'ecommercefullstack',
         title: 'E-Commerce FullStack Website',
-        description: 'This E-commerce website was made using Nextjs for frontend and backend too.',
+        description:
+            'This E-commerce website was made using Nextjs for frontend with an admin backend to manage multiple stores and their respective products.',
         projectLink: 'https://nextjs-ecommerce-store.vercel.app',
         codeLink: 'https://github.com/jbsselim972/nextjs-ecommerce-store',
         imgUrl: 'ecommercefullstack',
-        tags: ['nextjs', 'reactjs', 'fullstack', 'ecommerce'],
+        tags: ['nextjs', 'reactjs', 'fullstack', 'ecommerce', 'vercel'],
+    },
+    {
+        id: 'mernfoodapp',
+        title: 'Food APP MERN',
+        description:
+            'This web application is made with the MERN Stack and is a food delivery management application. It is a fullstack project where frontend and backend are respectively made with React and Node.js with Auth0 for authentication and MongoDB for the database.',
+        projectLink: 'https://mern-food-app-frontend-9qqp.onrender.com',
+        codeLink: 'https://github.com/jbsselim972/mern-food-app-frontend',
+        imgUrl: 'mernfoodapp',
+        tags: ['reactjs', 'nodejs', 'fullstack', 'render'],
     },
     {
         id: 'flexibble',

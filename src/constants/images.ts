@@ -24,6 +24,7 @@ import flexibble from '@/assets/projects/flexibble.png'
 import gpt3 from '@/assets/projects/gpt-3.png'
 import krypt from '@/assets/projects/krypt.png'
 import medium from '@/assets/projects/medium.png'
+import mernfoodapp from '@/assets/projects/mernfoodapp.png'
 import nftplatform from '@/assets/projects/nft_platform.png'
 import portfolio from '@/assets/projects/portfolio.png'
 import spotify from '@/assets/projects/spotify.png'
@@ -50,6 +51,7 @@ export default {
     ecommercefullstack,
     flexibble,
     discord,
+    mernfoodapp,
 
     react,
     node,
