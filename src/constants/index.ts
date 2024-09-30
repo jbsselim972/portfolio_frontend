@@ -4,11 +4,21 @@ export const projects: IProject[] = [
         id: 'trello',
         title: 'Trello Clone',
         description:
-            'This Trello clone website was made using Nextjs, Clerk and Supabase. It is a fullstack project and use organization management from clerk to create and manage organization and projects like Trello.',
+            'This Trello clone website was made using Nextjs, Clerk, PostgreSQL w/ Supabase and Stripe for payment subscription. It is a fullstack project and use organization management from clerk to create and manage organization and projects like Trello.',
         projectLink: 'https://jbsselim-trello.netlify.app',
         codeLink: 'https://github.com/jbsselim972/trello-demo',
         imgUrl: 'trello',
         tags: ['nextjs', 'fullstack'],
+    },
+    {
+        id: 'discord',
+        title: 'Discord Clone',
+        description:
+            'This Discord clone website was made using Nextjs, Clerk, Supabase, Socket.io for the chat and Livekit Cloud for managing Video & Audio feed for conversations. It is a fullstack project, you can manage servers, users & roles like Discord. You can start text,video and audio channels and chat with other users',
+        projectLink: 'https://jbsselim-discord.vercel.app',
+        codeLink: 'https://github.com/jbsselim972/discord-clone',
+        imgUrl: 'discord',
+        tags: ['nextjs', 'fullstack', 'websockets'],
     },
     {
         id: 'ecommercefullstack',
@@ -55,16 +65,6 @@ export const projects: IProject[] = [
         codeLink: 'https://github.com/jbsselim972/web3.0example',
         imgUrl: 'krypt',
         tags: ['reactjs', 'web3', 'uiux', 'fullstack'],
-    },
-    {
-        id: 'medium',
-        title: 'Medium',
-        description:
-            "This is a clone of Medium's website with some blog functionnalities made with React and Backend by Sanity",
-        projectLink: 'https://jbsmedium.vercel.app',
-        codeLink: 'https://github.com/jbsselim972/jbsmedium',
-        imgUrl: 'medium',
-        tags: ['nextjs', 'reactjs', 'sanity', 'fullstack'],
     },
     {
         id: 'nftplatform',
