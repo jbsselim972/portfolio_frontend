@@ -186,13 +186,26 @@ export const workExperiences: IExperience[] = [
     {
         works: [
             {
+                key: 'freelance',
+                name: 'Freelance - Fullstack Engineer',
+                company: 'Freelance',
+                description: 'Development of website and web applications.',
+                dateFrom: '2024-06-01',
+                dateTo: 'now',
+            },
+        ],
+        year: '2024',
+    },
+    {
+        works: [
+            {
                 key: 'ricoh',
                 name: 'Project Manager - Software Engineer',
                 company: 'RICOH France',
                 description:
                     'Development of several applications for clients with dematerialization or desktop publishing needs.',
                 dateFrom: '2019-11-01',
-                dateTo: 'Present',
+                dateTo: '2024-03-30',
             },
         ],
         year: '2019',
